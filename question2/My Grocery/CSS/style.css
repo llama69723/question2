@@ -1,0 +1,266 @@
+@charset "UTF-8";
+
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1.6;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;  
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+html{
+    height: 100%;
+}
+
+
+a{
+    text-decoration: none;
+    display: block;
+}
+img{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+p{
+    display: block;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.between{
+    justify-content: space-between;
+}
+.around{
+    justify-content: space-around;
+}
+.column{
+    flex-direction: column;
+}
+.center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.green-btn{
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background-color: #92DE61;
+    color: white;
+    border: #92DE61 1px solid;
+    border-radius: 5px;
+}
+.white-btn{
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: white;
+    border: white 1px solid;
+    border-radius: 5px;
+}
+body{
+  height: 100%;
+}
+header{
+    background-color:white;
+    width: 100%;
+    height: 80px;
+    /* border: #000 1px solid; */
+    position: relative;
+}
+header img{
+    width: 20%;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    transform: translateY(-50%);
+
+}
+.first-view {
+    background-image: url("../img/top-img.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.catch-copy {
+    margin: 200px 0;
+    width: 40%;
+    /* border: #000 1px solid; */
+}
+.catch-copy img{
+    width: 90%;
+    margin: auto;
+}
+.catch-copy p{
+    color: white;
+    text-align: center;
+    margin: 20px 0 80px;
+    font-size: 18px;
+}
+.link-box{
+    /* border: #000 1px solid; */
+    width: 50%;
+    margin: auto;
+}
+.flex-btn{
+    width: 45%;
+}
+.merit-wrapper{
+    position: relative;
+    width: 100%;
+    height: 400px;
+}
+.merit-container{
+    position: absolute;
+    top: -35%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50%;
+    margin: auto;
+    /* /* border: #000 1px solid; */ */
+}
+.merit-content{
+    width: 40%;
+    /* border: #000 1px solid; */
+    justify-content: center;
+}
+.merit-content img{
+    box-sizing: border-box;
+    width: 100%;
+    /* border: #000 1px solid; */
+}
+.merit-text h6{
+    text-align: center;
+    margin: 10px 0;
+    font-size: 25px;
+    letter-spacing: 0.1em;
+    color: #182410;
+    opacity: 0.9;
+}
+.merit-text p{
+    width: 100%;
+    margin: auto;
+    font-size: 14px;
+    line-height: 2;
+    /* border: #000 1px solid; */
+    color: #182410;
+    opacity: 0.9;
+    text-align: center;
+}
+footer{
+    width: 100%;
+    height: 100px;
+    background-color: #182410;
+    opacity: 0.9;
+    position: relative;
+}
+footer p{
+    width: 30%;
+    font-size: 12px;
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    transform: translateY(-50%);
+    color: white;
+}
