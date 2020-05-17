@@ -15,9 +15,15 @@
 <div class="first-view flex">
     <!-- <img class="top-img" src="img/top-img.png" alt=""> -->
     <div class="catch-copy">
-        <h1><img src="img/white-logo.png" alt=""></h1>
-        <p>家にある食材、きちんと管理できていますか？<br>
+        <h1><img class="top-logo" src="img/white-logo.png" alt=""></h1>
+        <p class="top-text">家にある食材、きちんと管理できていますか？<br>
         食べ物をおいしいうちに使い切るための管理サービスです。</p>
+        <div class="fukidashi">
+            <img src="img/fukidashi.png" alt="">
+            <h1>家にある食材、<br>
+                管理できていますか？</h1>
+        </div>
+        <p class="mobile-p">My Groceryは食べ物をおいしいうちに使い切るための管理サービスです。</p>
         <div class="link-box flex between">
             <a class="green-btn flex-btn" href="#">ログイン</a>
             <a class="white-btn flex-btn" href="#">新規登録</a>
@@ -47,10 +53,14 @@
     </div>
 </div>
 <div class="task-container">
-    <h3>解決できる課題</h3>
+    <h3 class="task-h3">解決できる課題</h3>
+    <div class="white-fukidashi">
+        <img src="img/white-fukidashi.png" alt="">
+        <h3 class="mobile-h3">こんな悩みはありませんか？</p>
+    </div>
     <div class="task-wrapper flex between">
         <div class="task-block fadein">
-            <p class="task-title">賞味期限が過ぎる</p>
+            <p class="task-title">賞味期限切れ</p>
             <ul>
                 <li>冷蔵庫の奥にある漬物、いつのだっけ？</li>
                 <li>ジャガイモに芽が生えてしまった…</li>
@@ -72,7 +82,7 @@
             <p class="task-number">2</p>
         </div>
         <div class="task-block fadein">
-            <p class="task-title">同じ食材を何度も買う</p>
+            <p class="task-title">買いすぎ</p>
             <ul>
                 <li>気づいたら、わさびチューブが4本もあった</li>
                 <li>足りないか不安でついつい買い過ぎてしまう</li>
@@ -96,8 +106,8 @@
     </div>
 </div>
 <div class="details details1">
-    <h4 class=" fadein"><span>1</span>.賞味期限が過ぎる</h4>
-    <div class="flex fadein">
+    <h4 class=" fadein"><span>1</span>.賞味期限切れ</h4>
+    <div class="details-wrapper flex fadein">
         <img src="img/syoumikigenn.png" alt="">
         <p>食品は表示されている保存方法を守って保存しておくことが大切です。
             消費期限が過ぎた卵や肉、魚介類などを食べると食中毒の危険があります。<br>
@@ -107,7 +117,7 @@
 </div>
 <div class="details details2">
     <h4 class=" fadein"><span>2</span>.買い忘れ</h4 class=" fadein">
-    <div class="flex fadein">
+    <div class="details-wrapper flex fadein">
         <img src="img/kaiwasure.png" alt="">
         <p>帰宅してから買い忘れに気づいたり、家族が同じものを買っていてむしろ余ってしまったり......。
             買い物における「うっかり」は、誰にでもあるかと思います。<br>
@@ -116,8 +126,8 @@
     </div>
 </div>
 <div class="details details3">
-    <h4 class=" fadein"><span>3</span>.同じ食材を何度も買う</h4 class=" fadein">
-    <div class="flex fadein">
+    <h4 class=" fadein"><span>3</span>.買いすぎ</h4 class=" fadein">
+    <div class="details-wrapper flex fadein">
         <img src="img/kaisugi.png" alt="">
         <p>「足りないといけないから…」と不安で食材を買い置きし、
             家に帰ったら同じものがすでにあった...。なんてことはありませんか？<br>
@@ -127,7 +137,7 @@
 </div>
 <div class="details details4">
     <h4 class=" fadein"><span>4</span>.場所が不明</h4 class=" fadein">
-    <div class="flex fadein">
+    <div class="details-wrapper flex fadein">
         <img src="img/seiri.png" alt="">
         <p>家にある全ての食材の位置、把握していますか？食材をきちんと分類ごとに整理し、
             取り出しやすい位置に収納することで料理の効率も上がります。<br>
@@ -138,10 +148,9 @@
 <div class="solution">
     <p class="arrow">↓</p>
     <div class="solution-wrapper flex fadein">
-        <img src="img/iphone.png" alt="">
+        <img src="img/iphone2.png" alt="">
         <div class="text-box">
-            <h5><span>My Grocery</span> なら<br>
-                解決できます</h5>
+            <h5><span>My Grocery</span> <br class="responsive-br1">なら<br class="responsive-br2">解決できます</h5>
             <p>サービスは無料でご利用いただけます。</p>
         </div>
     </div>
@@ -169,15 +178,16 @@
 </div>
 </main>
 <footer>
-    <div class="flex between">
+    <div class="footer-wrapper flex between">
         <p>Copyright © 2020 Akari Nemoto All Rights Reserved.</p>
         <div class="footer-nav">
             <ul class="flex around">
                 <li class="top-btn">TOP</li>
                 <li><a href="#">ログイン</a></li>
-                <li><a href="#">新規登録</a></li>
+                <li class="none"><a href="#">新規登録</a></li>
             </ul>
         </div>
+        <img class="mobile-logo" src="img/white-logo.png" alt="">
     </div>
 </footer>
 <script src="js/jquery-3.5.1.min.js"></script>
